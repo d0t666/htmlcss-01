@@ -156,7 +156,7 @@ a {
     display: flex;
     align-items: center;
     height: 90px;
-    padding: 0 32px;
+    padding: 0 45px;
     border-radius: 12px;
 }
 .clients .image a:hover {
