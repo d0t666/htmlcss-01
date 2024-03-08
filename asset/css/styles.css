@@ -11,6 +11,11 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+/* cho vào cả 2 thẻ cho mượt */
+html,
+body {
+    scroll-behavior: smooth;
+}
 /* Common - thành phần dùng chung */
 a {
     text-decoration: none;
