@@ -578,10 +578,11 @@ a {
     display: flex;
     width: 28px;
     height: 28px;
-    /* margin-right: 16px; */
+    margin-right: 16px;
     border-radius: 3px;
     align-items: center;
     justify-content: center;
+    background: #f9f9f9;
 }
 .footer .social-link:hover {
     background: #ebebeb;
