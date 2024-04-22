@@ -290,9 +290,10 @@ a {
     margin-left: 8px;
 }
 .featured .list {
-    display: flex;
+    display: grid;
     gap: 30px;
     margin-top: 70px;
+    grid-template-columns: repeat(3, 1fr);
 }
 .featured .item {
     flex: 1;
