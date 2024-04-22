@@ -124,11 +124,80 @@
 
 /* mobile */
 @media screen and (max-width: 767px) {
+    .hide-con-mobile {
+        display: none;
+    }
     .menu-drawer {
         padding: 40px;
         inset: 0 25% 0 0;
     }
     .navbar .action {
         display: none;
+    }
+    .hero-wrap .title {
+        margin-top: 20px;
+        font-size: 5.2rem;
+    }
+    .hero-wrap .desc {
+        width: 100%;
+    }
+    .clients .image {
+        row-gap: 20px;
+    }
+    .list-guide {
+        row-gap: 60px;
+        flex-direction: column;
+    }
+    .featured .link {
+        display: none;
+    }
+    .featured .list {
+        grid-template-columns: 1fr;
+    }
+    .viewall {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .stats .sub-title {
+        width: 100%;
+    }
+    .stats .img-block .image {
+        width: 100%;
+    }
+    .stats-trend {
+        top: 20px;
+        left: 20px;
+        border-radius: 12px;
+    }
+    .stats .row-qty {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .subscription .info {
+        padding: 0 32px;
+    }
+    .footer .row-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer .row-bottom {
+        column-gap: 4010241px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 999px) {
+    /* Đây là phần CSS được áp dụng cho màn hình có chiều rộng ít nhất là 1024px */
+    /* Thêm các thuộc tính CSS mà bạn muốn áp dụng cho màn hình này ở đây */
+    .hero-img {
+        right: 0;
+    }
+    .clients .image {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero-wrap .desc {
+        width: 82%;
     }
 }
